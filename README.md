@@ -1,7 +1,7 @@
 # AulaPW3_15-05-2024
 
 Utilizar a estrutura de componentes para criar:
-    - View principal;
+- View principal;
     - Quem somos; 
     * Contato;
     * Cabeçalho;
