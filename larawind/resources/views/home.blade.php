@@ -64,6 +64,42 @@
         </div>
     </div>
 
+<!-- Editar a partir daqui:  -->
+    <div class="container text-center">
+
+        <!-- Linha do primeiro parágrafo: -->
+        <div class="row">
+            <div class="col">&nbsp;</div>
+            <div class="col">
+                <p class="text-justify text-lg break-words font-sans">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    Proin pharetra nonummy pede. Mauris et orci.
+                </p>
+            </div>
+            <div class="col">&nbsp;</div>
+        </div>
+
+        <!-- Linha do segundo parágrafo: -->
+        <div class="row">
+            <div class="col">&nbsp;</div>
+            <div class="col">
+              <p class="text-justify text-lg break-words font-sans">Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.</p>
+            </div>
+            <div class="col">&nbsp;</div>
+        </div>
+
+        <!-- Linha do terceiro parágrafo: -->
+        <div class="row">
+            <div class="col">&nbsp;</div>
+            <div class="col">
+              <p class="text-justify text-lg break-words font-sans">Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis,
+                    nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.</p>
+            <div class="col">&nbsp;</div>
+        </div>  
+    </div>
+
+    <!-- Comparar os dois grids. -->
+        
     <!-- Grid no Tailwind: -->
     <div class="grid grid-cols-3">
         <diiv class="row">
