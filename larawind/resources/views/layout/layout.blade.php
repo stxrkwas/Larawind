@@ -18,7 +18,7 @@
             <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
 
                 <!-- Imagem:  -->
-                <img src=".img/eteclogo.png" class="h-12" alt="Loogo da ETEC Zona Leste"> <!-- class="h-12" define o tamanho da imagem. -->
+                <img src=".img/eteclogo.png" class="h-12" alt="Logo da ETEC Zona Leste"> <!-- class="h-12" define o tamanho da imagem. -->
                 <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Atividade de PW III </span>
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -52,7 +52,7 @@
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+                    <img src=".img/eteclogo.png" class="h-8" alt="Logo ETEC Zona Leste" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
                 </a>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
