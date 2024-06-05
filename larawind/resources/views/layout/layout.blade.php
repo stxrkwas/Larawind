@@ -53,17 +53,17 @@
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                     <img src=".img/eteclogo.png" class="h-8" alt="Logo ETEC Zona Leste" />
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Atividade de PW III</span>
                 </a>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                    <!--li>
+                        <a href="/home" class="hover:underline me-4 md:me-6">About</a>
+                    </li-->
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                        <a href="/home" class="hover:underline me-4 md:me-6">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                        <a href="/quemsomos" class="hover:underline me-4 md:me-6">Quem somos</a>
                     </li>
                     <li>
                         <a href="#" class="hover:underline">Contact</a>
