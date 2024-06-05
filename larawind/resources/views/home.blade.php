@@ -70,7 +70,7 @@
         <!-- Linha do primeiro parágrafo: -->
         <div class="row">
             <div class="col">&nbsp;</div>
-            <div class="col">
+            <div class="col text-center">
                 <p class="text-justify text-lg break-words font-sans">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                     Proin pharetra nonummy pede. Mauris et orci.
