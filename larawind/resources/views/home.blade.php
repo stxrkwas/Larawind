@@ -70,8 +70,8 @@
         <!-- Linha do primeiro parágrafo: -->
         <div class="row">
             <div class="col">&nbsp;</div>
-            <div class="col text-center">
-                <p class="text-justify text-lg break-words font-sans">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+            <div class="col">
+                <p class="mx-5 text-justify text-lg break-words font-sans">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
                     Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
                     Proin pharetra nonummy pede. Mauris et orci.
                 </p>
@@ -83,7 +83,7 @@
         <div class="row">
             <div class="col">&nbsp;</div>
             <div class="col">
-              <p class="text-justify text-lg break-words font-sans">Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.</p>
+              <p class="mx-5 text-justify text-lg break-words font-sans">Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.</p>
             </div>
             <div class="col">&nbsp;</div>
         </div>
@@ -92,7 +92,7 @@
         <div class="row">
             <div class="col">&nbsp;</div>
             <div class="col">
-              <p class="text-justify text-lg break-words font-sans">Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis,
+              <p class="text-justify mx-5 text-lg break-words font-sans">Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis,
                     nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.</p>
             <div class="col">&nbsp;</div>
         </div>  
@@ -102,7 +102,7 @@
         
     <!-- Grid no Tailwind: -->
     <div class="grid grid-cols-3">
-        <diiv class="row">
+        <div class="row">
             <div class="col span-1">&nbsp;</div>
             <div class="col span-12">
                 <p class="text-justify text-lg break-words font-sans">Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
@@ -114,8 +114,12 @@
                     nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.</p>
             </div>
             <div class="col span-1">&nbsp;</div>
+        </div>
     </div>
-    </div>
+
+    
+    <p class="mx-5 text-justify">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
+    <p class="text-gray-500 dark:text-gray-400">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease, with a complete audit trail for every change.</p>
 
 
 </body>
