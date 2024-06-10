@@ -13,3 +13,7 @@ Route::get('/home', function () {
 Route::get('/quemsomos', function () {
     return view('quemsomos');
 });
+
+Route::get('/contato', function () {
+    return view('contato');
+});
