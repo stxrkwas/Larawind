@@ -1,7 +1,5 @@
-.content-center{
-    padding-top: 80px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.nav{
-    margin-bottom: 70px;
-}
+@import 'flowbite';

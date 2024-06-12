@@ -22,7 +22,7 @@
 <!-- Corpo do HTML -->
 <body>
 
-    <!-- Estilização da página -->
+    <!-- Estilização dos elementos da página -->
     <style>
 
         /* Imagem */
@@ -47,6 +47,8 @@
 
             /* Margem superior */
             padding-top: 20px;
+
+            padding-bottom: 20px;
         }
     </style>
 
@@ -62,11 +64,11 @@
 
         <!-- Título -->
         <h1 class="mb-4 my-6 text-5xl text-center font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            Maria Luiza Passo Silva</h1>
+            Maria Luiza</h1>
 
         <!-- Parágrafo:  -->
         <p class="mb-4 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-24 xl:px-48 dark:text-gray-400">
-            3º NOVOTEC Desenvolvimento de Sistemas. Turma da manhã. Grupo B.</p>
+            Estudante da ETEC Zona Leste.</p>
 
         <!-- Div da imagem -->
         <div class="mt-5" id="image">
@@ -97,14 +99,16 @@
         <div class="content-center">
 
             <!-- Parágrafo -->
-            <p class="sm:px-16 text-justify text-lg break-words font-normal" id="p1">
-            Ut lectus dolor, venenatis a augue et, vestibulum dictum tortor. In vitae odio imperdiet, condimentum sem a, pretium quam. 
-            Morbi erat elit, hendrerit quis maximus quis, gravida quis elit. Pellentesque habitant morbi tristique senectus et netus et 
-            malesuada fames ac turpis egestas. Vivamus at finibus odio. Morbi posuere massa sed arcu consequat ultrices. Donec sapien felis, 
-            dignissim in cursus non, ultricies ut neque. Maecenas quis blandit nunc. In at dolor varius, fermentum enim in, dapibus tellus. 
-            Fusce auctor eleifend erat. Donec dignissim eros nec erat molestie, a condimentum enim porttitor. Phasellus sapien justo, 
-            pulvinar eget hendrerit a, sodales sit amet mauris. Mauris fermentum tristique massa, et fermentum lectus. 
-            Vestibulum sollicitudin ullamcorper consectetur.</p>
+            <p class="sm:px-16 lg:px-24 text-justify text-lg break-words font-normal" id="p1">
+                Olá, eu sou a Maria Luiza, estudante da ETEC Zona Leste atualmente cursando o terceiro ano do Ensino Médio integrado 
+                ao Ensino Técnico, o NOVOTEC. Estudo na turma da manhã e faço parte da Turma B.
+                Esta é uma atividade da matéria técnica Programação Web III, a qual objetiva a criação de um projeto no framework Laravel, 
+                utilizando Boostrap ou Tailwind CSS e imagens para a estilização das páginas. Entre os requisitos necessários para a entrega dessa atividade estão
+                a criação de três páginas para visualização, as 'views' principal, quem somos e contato, todas elas possuem conteúdo livre.
+                A 'view' contato deve conter um formulário com as variáveis 'nome', 'telefone', 'endereço' e 'sexo'. O formulário deve ter o 'action' enviando para o 
+                'controller' as informações e exibi-las na página usando 'var_dump'.
+                A atividade será entregue no Microsoft Teams, enquanto o projeto está disponível em seu repositório no site GitHub. Clique em saiba mais e descubra 
+                mais projetos web e de outros tipos no meu perfil.</p>
 
         </div>
 

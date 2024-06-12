@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <!-- Definindo o idioma da página -->
-<html lang="en">
+<html lang="pt-br">
 
 <!-- Cabeçalho -->
 <head>
@@ -13,7 +13,7 @@
     <!-- Indica que largura da página proporcional ao tamanho da tela e define o zoom inicial. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <!-- Título da página, aparece na barra de navegação -->
+    <!-- Título da página, aparece na barra de navegação -->
     <title>Layout</title>
 
     <!-- Links de refeência e script Flowbite -->
@@ -51,13 +51,13 @@
             rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 
             dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                 
-                <!--  -->
+                <!-- Texto para acessiblidade -->
                 <span class="sr-only">Open main menu</span>
 
                 <!-- Elemento raiz da imagem vetorial escalável (SVG) -->
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     
-                <!-- Este elemento define a forma real do botão usando comandos de caminho.  -->
+                    <!-- Este elemento define a forma real do botão usando comandos de caminho.  -->
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
                 
                 </svg>
@@ -98,7 +98,7 @@
     </nav>
 
     <!-- Rodapé-->
-    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+    <footer class="bg-gray-50 rounded-lg shadow dark:bg-gray-900 m-4">
 
         <!-- Div que alinha o rodapé -->
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
