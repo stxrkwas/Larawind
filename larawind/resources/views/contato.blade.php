@@ -10,7 +10,7 @@
     <!-- Tipo de caracteres -->
     <meta charset="UTF-8">
 
-    <!-- ..., largura da página proporcional ao tamanho da tela e o zoom inicial. -->
+    <!-- Indica que largura da página proporcional ao tamanho da tela e define o zoom inicial. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Título da página, aparece na barra de navegação -->
@@ -19,15 +19,16 @@
 <!-- Fim do cabeçalho -->
 </head>
 
+<!-- Corpo do HTML -->
 <body>
 
     <!-- Estilização da página -->
     <style>
 
-        /* Id do formulário */
+        /* Formulário */
         #form1 {
 
-            /* Margem de cima */
+            /* Margem superior */
             padding-top: 150px;
 
         }
@@ -52,6 +53,7 @@
             
             <!-- Rotulo do campo 'email' -->
             <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Endereço de email</label>
+        
         </div>
 
         <!-- Div do campo de senha-->
@@ -62,6 +64,7 @@
             
             <!-- Rotulo do campo 'senha' -->
             <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Senha</label>
+        
         </div>
 
         <!-- Div do campo -->
@@ -70,10 +73,13 @@
             
             <!--  -->
             <label for="floating_repeat_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Confirme a senha</label>
+        
         </div>
 
-        <!-- Div dos campos de nome  -->
+        <!-- Div dos campos de nome, do tipo grid  -->
         <div class="grid md:grid-cols-2 md:gap-6">
+
+            <!-- Div do campo 'primeiro nome' -->
             <div class="relative z-0 w-full mb-5 group">
 
                 <!-- Campo de texto -->
@@ -81,7 +87,10 @@
                 
                 <!-- Rotulo do campo 'Primeiro nome' -->
                 <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Primeiro nome</label>
+            
             </div>
+
+            <!-- Div do campo 'sobrenome' -->
             <div class="relative z-0 w-full mb-5 group">
 
                 <!-- Campo de texto -->
@@ -89,17 +98,23 @@
                 
                 <!-- Rotulo do campo 'Sobrenome' -->
                 <label for="floating_last_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Sobrenome</label>
+            
             </div>
+        
         </div>
 
         <!-- Div do campo -->
         <div class="relative z-0 w-full mb-5 group">
+
+            <!-- Campo de texto do tipo telefone -->
             <input type="tel" pattern="+[0-9]{2} ([0-9]){2} [0-9]{5}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
             
             <!-- Rotulo do campo 'Telefone/celular': -->
             <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Número de telefone/celular</label>
+        
         </div>
 
+        <!-- Div do campo 'sexo' -->
         <div class="relative z-0 w-full mb-5 group">
 
             <!-- Rotulo do campo de seleção 'Sexo' -->
@@ -134,5 +149,4 @@
 </body>
 
 <!-- Fim do HTML -->
-
 </html>

@@ -1,7 +1,7 @@
 <!-- Indicando o formato do arquivo -->
 <!DOCTYPE html>
 
-<!-- Definindo a linguagem da página -->
+<!-- Definindo o idioma da página -->
 <html lang="pt-br">
 
 <!-- Cabeçalho -->
@@ -86,7 +86,7 @@
                 <!-- Elemento raiz da imagem vetorial escalável (SVG) -->
                 <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     
-                    <!-- Este elemento define a forma real do ícone usando comandos de caminho.  -->
+                    <!-- Este elemento define a forma real do botão usando comandos de caminho.  -->
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                 
                 </svg>
