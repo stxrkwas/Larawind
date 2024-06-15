@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ContatoController extends Controller{
     public function contato(){
         var_dump($_POST);
-        return view('contato');
+        return view('contato', ['navbar', 'footer'  => 'Contato (layout)']);
     }
 }
 ?>

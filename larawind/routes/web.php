@@ -21,7 +21,8 @@ Route::get('/quemsomos', function () {
     return view('contato');
 });*/
 
-Route::get('/contato', [ContatoController::class, 'contato'])->name('contato');
+Route::GET('/contato', [ContatoController::class, 'contato'])->name('contato');
+Route::POST('/contato', [ContatoController::class, 'contato'])->name('contato');
 
 Route::get('/form', function () {
     return view('form');
