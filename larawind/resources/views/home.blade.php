@@ -5,7 +5,6 @@
 <html lang="pt-br">
 
 <!-- Cabeçalho -->
-
 <head>
 
     <!-- Tipo de caracteres -->
@@ -26,6 +25,7 @@
 
     <!-- Estilização dos elementos da página -->
     <style>
+
         /* Div1 */
         #div1 {
 
@@ -37,17 +37,19 @@
 
         }
 
+        /* Rodapé */
         #footer{
 
             /* Margem superior */
             margin-top: 50px;
         }
+
     </style>
 
-    <!-- Extende o arquivo 'layout' da pasta 'layout' -->
+    <!-- Extende o arquivo 'navbar' da pasta 'layout' -->
     @extends('layout.navbar')
 
-    <!-- Seção, conteúdo que fica dentro da extensão de 'content' de 'layout.layout' -->
+    <!-- Seção, conteúdo que fica dentro da extensão de 'navbar' de 'layout.navbar' -->
     @section('navbar')
 
     <!-- Div container: -->

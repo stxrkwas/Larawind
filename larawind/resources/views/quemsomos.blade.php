@@ -5,7 +5,6 @@
 <html lang="pt-br">
 
 <!-- Cabeçalho -->
-
 <head>
 
     <!-- Tipo de caracteres -->
@@ -26,6 +25,7 @@
 
     <!-- Estilização dos elementos da página -->
     <style>
+
         /* Imagem */
         #image {
 
@@ -49,6 +49,7 @@
             /* Margem superior */
             padding-top: 20px;
 
+            /* Margem inferior */
             padding-bottom: 20px;
         }
 
@@ -57,12 +58,13 @@
             /* Margem superior */
             margin-top: 50px;
         }
+
     </style>
 
-    <!-- Extende o arquivo 'layout' da pasta 'layout' -->
+    <!-- Extende o arquivo 'navbar' da pasta 'layout' -->
     @extends('layout.navbar')
 
-    <!-- Seção, conteúdo que fica dentro da extensão de 'content' de 'layout.layout' -->
+    <!-- Seção, conteúdo que fica dentro da extensão de 'navbar' de 'layout.navbar' -->
     @section('navbar')
 
     <!-- Div container: -->
@@ -166,7 +168,8 @@
                 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
                 <!-- Rotulo de autoria da página -->
-                <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://github.com/stxrkwas/Larawind.git" class="hover:underline">Maria Luiza Passo Silva™</a>. All Rights Reserved.</span>
+                <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://github.com/stxrkwas/Larawind.git" 
+                class="hover:underline">Maria Luiza Passo Silva™</a>. All Rights Reserved.</span>
 
                 <!-- Fim da div principal -->
             </div>
